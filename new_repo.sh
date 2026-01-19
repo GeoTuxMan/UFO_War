@@ -26,7 +26,7 @@ git add .
 git commit -m "Initial commit - $PROJECT_NAME"
 
 # ====== CREATE GITHUB REPO ======
-gh repo create "$PROJECT_NAME" \
+git repo create "$PROJECT_NAME" \
   --description "$PROJECT_DESC" \
   --public \
   --source=. \
